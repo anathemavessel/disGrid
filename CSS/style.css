@@ -28,7 +28,7 @@ body{
     border-radius: 10px;
 }
 #spanNav{
-    background-color: #F7EAC6;
+    background-color: rgba(177,72,163,0.4);
     border-color: #999999;
     border-radius: 7px;
     width: 7em;
@@ -38,7 +38,7 @@ body{
     margin: 0px 7px;
 }
 #spanNavR{
-    background-color: #F7EAC6;
+    background-color: rgba(177,72,163,0.4);
     border-color: #999999;
     border-radius: 7px;
     width: 7em;
@@ -46,6 +46,9 @@ body{
     font-size: 1.2em;
     color: #000;
     margin-left: 50%;
+}
+#spanNav:hover, #spanNavR:hover{
+    background-color: rgba(149,13,110,0.6);
 }
 #mainContent{
     background-color: rgba(0, 0, 0, 0.4);
@@ -61,7 +64,7 @@ body{
     grid-template-rows: 9fr 1fr;
 }
 #mainContent > #superSection > #midiSection{
-    background-color: rgba(221, 221, 221, 0.85);
+    background-color: rgba(221, 221, 221, 0.8);
     border-color: #999999;
     border-radius: 10px;
     padding: 10px 30px; 
@@ -70,7 +73,7 @@ body{
     grid-template-rows: 1fr 10fr;
 }
 .itemD{
-    background-color: rgba(108, 216, 255, 0.9);
+    background-color: rgba(100,87,179, 0.7);
     border-color: #999999;
     border-radius: 10px;
     height: 12em;
@@ -79,6 +82,9 @@ body{
     align-items: center;
     justify-content: center;
     grid-column-end: span 2;
+}
+.itemD:hover{
+    background-color: rgba(41,26,98, 0.7);
 }
 #mainContent > #superSection > #midiSection > #divContent{
     display: grid;
@@ -96,7 +102,7 @@ body{
     grid-row: 2 span;
 }
 aside{
-    background-color: rgba(221, 221, 221, 0.85);
+    background-color: rgba(221, 221, 221, 0.8);
     border-color: #999999;
     border-radius: 10px;
     padding: 10px;
@@ -104,18 +110,13 @@ aside{
     text-align: center;
     align-items: center;
 }
-a{
-    background-color: #FFD9B3;
-    border-color: #CCCCCC;
-    border-radius: 10px;
-}
 footer{
     background-color: rgba(0, 0, 0, 0.4);
     border-color: #999999;
     border-radius: 10px;
 }
 #icons{
-    background-color: rgba(221, 221, 221, 0.85);
+    background-color: rgba(221, 221, 221, 0.8);
     border-radius: 10px;
     border-color: #999999;
     display: grid;
@@ -133,10 +134,16 @@ footer{
 }
 .itemA{
     display: flex;
+    background-color: rgba(101,128,203, 0.6);
     text-align: center;
+    border-radius: 10px;
     align-items: center;
     text-decoration: none;
     justify-content: center;
+}
+.itemA:hover{
+    background-color: rgba(34, 61, 134, 0.6);
+
 }
 #divNav{
     display: inline-flex;
